@@ -1,9 +1,0 @@
----
-- name: install autofs and start
-  hosts: all
-  tasks:
-    - name: install autofs
-      dnf:
-        name: autofs
-        state: absent
-   
